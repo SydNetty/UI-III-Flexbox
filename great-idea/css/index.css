@@ -102,20 +102,18 @@ body{
 
 /*Top Section*/
 .top{
-	margin: auto;
-	text-align: center;
-	padding-bottom: 40px;
+	display: flex;
 }
 
 h1{
 	font-size: 88px;
 	text-align: center;
+	width: 50%;
 }
 
 .words{
 	text-align: center;
-	margin: 40px 10px;
-	width: 40%;
+	width: 50%;
 	padding-top: 30px;
 	vertical-align: top;
 
@@ -125,6 +123,7 @@ h1{
 	border: 2px solid black;
 	padding: 5px 30px;
 	margin: 10px;
+	width: 40%;
 }
 
 .circle{
@@ -136,7 +135,7 @@ h1{
 /*Middle Section*/
 .middle{
 	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	display: flex;
 }
 .upper-middle{
 	flex-direction: row;
@@ -144,6 +143,15 @@ h1{
 	padding: 30px 5px;
 	margin: auto;
 	width: 49%;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.lower{
+	border-bottom: 2px solid black;
+	display: flex;
 }
 
 .lower-middle{
@@ -165,4 +173,23 @@ footer{
 
 .copyright{
 	text-align: center;
+}
+
+
+/* Services Page */
+
+.intro{
+	border-bottom: 2px solid black;
+}
+
+.sections{
+
+}
+
+.twoIndSection{
+	display: flex;
+}
+
+.individual{
+	width: 50%;
 }
