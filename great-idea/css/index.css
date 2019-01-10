@@ -105,8 +105,8 @@ body{
 	display: flex;
 }
 
-h1{
-	font-size: 88px;
+.innovation{
+	font-size: 70px;
 	text-align: center;
 	width: 50%;
 }
@@ -116,7 +116,6 @@ h1{
 	width: 50%;
 	padding-top: 30px;
 	vertical-align: top;
-
 }
 
 .button{
@@ -124,6 +123,8 @@ h1{
 	padding: 5px 30px;
 	margin: 10px;
 	width: 40%;
+	text-align: center;
+	background-color: white;
 }
 
 .circle{
@@ -191,5 +192,20 @@ footer{
 }
 
 .individual{
+	width: 50%;
+	border: 2px solid black;
+	background-color: lightgray;
+}
+
+.bottom{
+	display: flex;
+	border-top: 2px solid black;
+}
+
+.facts{
+	width: 50%;
+}
+
+.services-info-img{
 	width: 50%;
 }
